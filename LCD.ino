@@ -6,8 +6,7 @@ void setup() {
   lcd.begin(16, 2);  //number of columns and row
   lcd.print("HELLO WORLD");
 
-
-  //Uncomment below, and you will get moving text
+  //Uncomment below, and you will get text moving up and down
 //  delay(1000);
 //  lcd.clear();
 //  lcd.setCursor(0,1);
@@ -19,6 +18,8 @@ void setup() {
  
 void loop() {
 }
+
+//My SetUp:
 
 /*PIN01-VSS -> GND
 PIN02-VDD -> 5V
